@@ -44,6 +44,22 @@ searchByName = async () => {
         studentEthnicity.innerText = 'Ethnicity: ' + student.ethnicity_code;
         studentInfo.appendChild(studentEthnicity);
 
+        const address = document.createElement('h4');
+        address.innerText = 'Address: ';
+        studentInfo.appendChild(address);
+
+        const addressLineOne = document.createElement('p');
+        addressLineOne.innerText = student.address_line_1;
+        studentInfo.appendChild(addressLineOne);
+
+        const townCity = document.createElement('p');
+        townCity.innerText = student.town_city;
+        studentInfo.appendChild(townCity);
+
+        const postcode = document.createElement('p');
+        postcode.innerText = student.postcode;
+        studentInfo.appendChild(postcode);
+
         const div = document.getElementById('nameResults');
         div.appendChild(studentInfo);
     });
