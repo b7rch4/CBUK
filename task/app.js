@@ -31,10 +31,19 @@ searchByName = async () => {
 
     filteredByName.forEach(student => {
         const studentInfo = document.createElement('div');
+
         const studentName = document.createElement('h2');
         studentName.innerText = student.first_name + ' ' + student.last_name;
-
         studentInfo.appendChild(studentName);
+
+        const studentGender = document.createElement('p');
+        studentGender.innerText = 'Gender: ' + student.gender;
+        studentInfo.appendChild(studentGender);
+
+        const studentEthnicity = document.createElement('p');
+        studentEthnicity.innerText = 'Ethnicity: ' + student.ethnicity_code;
+        studentInfo.appendChild(studentEthnicity);
+
         const div = document.getElementById('nameResults');
         div.appendChild(studentInfo);
     });
