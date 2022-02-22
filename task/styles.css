@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Space+Mono&display=swap');
+
+* {
+    background-color: #262626;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    /* text-align: center; */
+    margin: auto;
+    max-width: 960px;
+}
+
+.heading {
+    border-bottom: 2px solid #fff;
+}
+
+input {
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #dbdbdb
+}
+
+button {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select {
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.studentInfo {
+    width: auto;
+    max-width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}

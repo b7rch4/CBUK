@@ -44,6 +44,7 @@ searchByName = async () => {
 
     filteredByName.forEach(student => {
         const studentInfo = document.createElement('div');
+        studentInfo.className = "studentInfo";
 
         const studentName = document.createElement('h2');
         studentName.innerText = student.first_name + ' ' + student.last_name;
