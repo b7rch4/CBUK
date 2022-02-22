@@ -2,10 +2,15 @@ const firstNameInput = document.getElementById('firstName');
 const lastNameInput = document.getElementById('lastName');
 const nameButton = document.getElementById('nameButton');
 
+const yearGroupInput = document.getElementById('yearGroup');
+const yearButton = document.getElementById('yearButton');
+
 let firstNameTerm;
 let lastNameTerm;
 let students;
 let filteredByName;
+let selectedYearGroup;
+let filteredByYear;
 
 firstNameInput.addEventListener('input', e => {
     firstNameTerm = e.target.value;
@@ -18,6 +23,14 @@ lastNameInput.addEventListener('input', e => {
 nameButton.addEventListener('click', e => {
     searchByName();
 });
+
+yearGroupInput.addEventListener('input', e => {
+    selectedYearGroup = e.target.value;
+});
+
+yearButton.addEventListener('click', e => {
+    searchByYear();
+})
 
 fetchStudents = async () => {
     students = await fetch ('./student_records.json').then(res => res.json());
@@ -62,5 +75,19 @@ searchByName = async () => {
 
         const div = document.getElementById('nameResults');
         div.appendChild(studentInfo);
+    });
+};
+
+searchByYear = async () => {
+    await fetchStudents();
+
+    const div = document.getElementById('yearResults');
+
+    filteredByYear = students.Students.filter(student => student.year_code.includes(selectedYearGroup));
+    filteredByYear.forEach(student => {
+        const studentName = document.createElement('p');
+        studentName.innerText = student.first_name + ' ' + student.last_name;
+
+        div.appendChild(studentName);
     });
 };
