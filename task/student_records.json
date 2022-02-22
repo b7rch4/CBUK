@@ -1,0 +1,142 @@
+{
+  "Students": [
+    {
+      "source_id": "1091",
+      "pupil_admission_number": "6177",
+      "first_name": "Vicki",
+      "legal_first_name": "Vicki",
+      "middle_name": "",
+      "last_name": "Newhart",
+      "legal_last_name": "Newhart",
+      "former_last_name": "",
+      "gender": "F",
+      "year_code": "7",
+      "year_group_source_id": "2018-1718",
+      "dob": "09/06/1999 00:00:00",
+      "upn": "U502400200093",
+      "former_upn": "",
+      "uln": "7196241826",
+      "is_eal": false,
+      "free_meal": true,
+      "free_meal_6": true,
+      "fsm_review_date": null,
+      "ethnicity_code": "WBRI",
+      "is_pp": false,
+      "service_child": false,
+      "looked_after": false,
+      "ever_in_care": true,
+      "sen_category": "E",
+      "enrolment_status": "C",
+      "address_line_1": "268 Coronation Street",
+      "address_line_2": "",
+      "town_city": "Derby",
+      "county": "",
+      "country": "GBR",
+      "postcode": "DE3 3FE",
+      "start_date": "01/09/2010 00:00:00",
+      "end_date": null,
+      "contacts":[
+        {
+          "name":"Mr Newhart",
+          "relationship":"Father"
+        },
+        {
+          "name":"Mrs Newhart",
+          "relationship":"Mother"
+        }
+      ]
+    },
+    {
+      "source_id": "1092",
+      "pupil_admission_number": "6178",
+      "first_name": "Tom",
+      "legal_first_name": "Tom",
+      "middle_name": "",
+      "last_name": "Jones",
+      "legal_last_name": "Jones",
+      "former_last_name": "",
+      "gender": "M",
+      "year_code": "7",
+      "year_group_source_id": "2018-1718",
+      "dob": "21/06/1999 00:00:00",
+      "upn": "U502400200094",
+      "former_upn": "",
+      "uln": "7196241827",
+      "is_eal": false,
+      "free_meal": true,
+      "free_meal_6": true,
+      "fsm_review_date": null,
+      "ethnicity_code": "WBRI",
+      "is_pp": false,
+      "service_child": false,
+      "looked_after": false,
+      "ever_in_care": false,
+      "sen_category": "E",
+      "enrolment_status": "C",
+      "address_line_1": "268 Coronation Street",
+      "address_line_2": "",
+      "town_city": "Derby",
+      "county": "",
+      "country": "GBR",
+      "postcode": "DE3 3FE",
+      "start_date": "01/09/2010 00:00:00",
+      "end_date": null,
+      "contacts":[
+        {
+          "name":"Mr Jones",
+          "relationship":"Father"
+        },
+        {
+          "name":"Mrs Jones",
+          "relationship":"Mother"
+        }
+      ]
+    },
+    {
+      "source_id": "1098",
+      "pupil_admission_number": "6179",
+      "first_name": "Dylan",
+      "legal_first_name": "Dylan",
+      "middle_name": "",
+      "last_name": "Smith",
+      "legal_last_name": "Smith",
+      "former_last_name": "",
+      "gender": "M",
+      "year_code": "7",
+      "year_group_source_id": "2018-1718",
+      "dob": "02/06/1999 00:00:00",
+      "upn": "U502400200023",
+      "former_upn": "",
+      "uln": "7196241845",
+      "is_eal": false,
+      "free_meal": false,
+      "free_meal_6": false,
+      "fsm_review_date": null,
+      "ethnicity_code": "WBRI",
+      "is_pp": false,
+      "service_child": false,
+      "looked_after": false,
+      "ever_in_care": true,
+      "sen_category": "E",
+      "enrolment_status": "C",
+      "address_line_1": "268 Coronation Street",
+      "address_line_2": "",
+      "town_city": "Derby",
+      "county": "",
+      "country": "GBR",
+      "postcode": "DE3 3FE",
+      "start_date": "01/09/2010 00:00:00",
+      "end_date": null,
+      "contacts":[
+        {
+          "name":"Mr Smith",
+          "relationship":"Father"
+        },
+        {
+          "name":"Mrs Smith",
+          "relationship":"Mother"
+        }
+      ]
+    }
+  ]
+}
