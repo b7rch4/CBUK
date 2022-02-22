@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Space+Mono&display=swap');
 
 * {
     background-color: #262626;
@@ -8,33 +8,69 @@
     width: auto;
     height: auto;
     box-sizing: border-box;
-    /* text-align: center; */
+    text-align: center;
     margin: auto;
     max-width: 960px;
 }
 
 .heading {
     border-bottom: 2px solid #fff;
+    margin: 20px;
+    padding: 5px;
+}
+
+.subHeading {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nameSearch {
+    float: left;
+    margin: 30px;
+}
+
+.yearSearch {
+    float: right;
+    margin: 30px;
 }
 
 input {
     border: 1px solid #fff;
     border-radius: 5px;
+    padding: 5px;
 }
 
 ::placeholder {
-    color: #dbdbdb
+    color: #9e9e9e
 }
 
 button {
     border: 1px solid #fff;
     border-radius: 5px;
     cursor: pointer;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255, 0.2);
 }
 
 select {
     border: 1px solid #fff;
     border-radius: 5px;
+    padding: 5px;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.results {
+    margin-top: 40px;
+}
+
+p {
+    padding: 3px;
 }
 
 .studentInfo {
@@ -43,4 +79,6 @@ select {
     height: 200px;
     border: 1px solid #fff;
     border-radius: 5px;
+    padding: 10px;
 }
+

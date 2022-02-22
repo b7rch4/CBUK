@@ -75,6 +75,7 @@ searchByName = async () => {
         studentInfo.appendChild(postcode);
 
         const div = document.getElementById('nameResults');
+        div.innerHTML = '';
         div.appendChild(studentInfo);
     });
 };
@@ -83,6 +84,7 @@ searchByYear = async () => {
     await fetchStudents();
 
     const div = document.getElementById('yearResults');
+    div.innerHTML = '';
 
     filteredByYear = students.Students.filter(student => student.year_code.includes(selectedYearGroup));
     filteredByYear.forEach(student => {
